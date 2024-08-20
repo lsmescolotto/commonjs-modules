@@ -1,4 +1,4 @@
-// todas as funções que lidam com produto
+// all functions related to product
 const productType ={
   version: "digital",
   tax: "x1"
@@ -9,6 +9,7 @@ async function getFullName(codeId, productName){
   await doBreakLine();
 }
 
+//hidden member
 async function doBreakLine(){
   console.log("/n")
 }

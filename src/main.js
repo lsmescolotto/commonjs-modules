@@ -1,4 +1,6 @@
 // const product = require("./services/products")
+
+//destructuring -> to get only what will be used
 const {getFullName, getProductLabel} = require("./services/products")
 const database = require("./services/database")
 

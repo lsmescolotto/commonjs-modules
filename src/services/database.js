@@ -1,3 +1,3 @@
-async function connetToDataBase(databaseName){
+exports.connectToDataBase = async (databaseName) => {
   console.log(`connecting to ${databaseName}`)
 }
